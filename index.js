@@ -39,5 +39,5 @@ let variableAge = prompt("What is your Age?");
 let variableHobby = prompt("What is your Hobby?");
 
 alert(
-  `Hi my name is ${variableName} and my age is ${variableAge} and my faveorite hobby is ${variableHobby}`
+  `Hi my name is ${variableName} and my age is ${variableAge} and my favorite hobby is ${variableHobby}`
 );
