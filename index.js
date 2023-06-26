@@ -244,21 +244,124 @@
 // let roles2 = prompt("Enter your team roles");
 // console.log(roles2);
 
-// for (let i = 0; i < team.length; i++) {
-// console.log(i);
-// console.log(`Hello `)
+// // for (let i = 0; i < team.length; i++) {
+// // console.log(i);
+// // console.log(`Hello `)
+
+// // }
+
+// let rfpTeam = prompt("Enter your team's names:");
+// let rfpRoles = prompt("Enter your team's roles:");
+// console.log(rfpTeam);
+// let rfpTeamSplit = rfpTeam.split(",");
+// let rfpRolesSplit = rfpRoles.split(",");
+// console.log(rfpTeamSplit);
+// console.log(rfpRolesSplit);
+// for (i = 0; i < rfpTeamSplit.length; i++) {
+//   console.log(
+//     `Hello my name is ${rfpTeamSplit[i]} and I am the ${rfpRolesSplit[i]}`
+//   );
+// }
+
+// // const arr = [1,2,3]
+
+// // console.log(arr[2]) //3
+
+// // //initialzer // condition // iterator //
+// // for (let initialzer = 0; intitializer < arr.length; initialzer++){
+// //     console.log(arr[initialzer])
+// // }
+
+// for (let initialzer = 0; initialzer < Array.length; initialzer++) {
+//   console.log(array[initialzer]);
+// }
+
+// //ANCHOR - JAVASCRIPT FUNCTIONS
+
+// //
+
+// function thisIsTheFunctionName(name) {
+// console.log(name)
+// }
+
+// // TYPE THE FUNCTION NAME FOLLOWED BY PARENTHESES
+// thisIsTheFunctionName('colin') // IN THE PARENTHESES IS THE ARGUMENT
+
+// // RETURN STATEMENT
+
+// return name
+// let name = thisIsTheFunctionName
+
+// letname2 = thisIsTheFunctionName
+
+// function iterateThroughArray(arr){
+//     for(let intitializer = 0; intitializer < arr.length; intitializer++){
+//       console.log(arr[intitializer])
+//     }
+// }
+
+// iterateThroughArray(array3)
+
+// function sum(num1, num2){
+//     console.log(num1 + num2)
+// }
+
+// sum(1,3)
+
+// // only need to declare when changing the variable
+
+// function pho(ingredient1, ingredient2){
+//   console.log(ingredient1 / ingredient2)
+// }
+
+// const function1 = function() {
 
 // }
 
-let rfpTeam = prompt("Enter your team's names:");
-let rfpRoles = prompt("Enter your team's roles:");
-console.log(rfpTeam);
-let rfpTeamSplit = rfpTeam.split(",");
-let rfpRolesSplit = rfpRoles.split(",");
-console.log(rfpTeamSplit);
-console.log(rfpRolesSplit);
-for (i = 0; i < rfpTeamSplit.length; i++) {
-  console.log(
-    `Hello my name is ${rfpTeamSplit[i]} and I am the ${rfpRolesSplit[i]}`
-  );
+// // ARROW FUNCTION
+// const function2 = () => {
+
+// }
+
+// let array10 = [1,2,3,4,5]
+
+// const function21 = function(arr) {
+//     for(let initialzer = 0; intitializer < arr.length; intitializer++) {
+//       console.log(arr[intitializer])
+//     }
+// }
+
+// function21(array10)
+
+// // function loop() {
+// //     console.log('hey)
+// //     loop()
+// //  }
+
+// loop()
+
+// function blockscope(){
+//     let x = 0 // YOU CANT acess in GLOBAL SCOPE
+// }
+// console.log(x)
+
+// let array = ['Lucycan', 'Collin', 'Mark', 'Cortez']
+
+// function team = (initialzer = 0; initialzer < 5; intitializer++) {
+//     console.log(arr.length)
+
+//   }
+
+//   const names = ["Lucycan", "Collin", "Mark", "Cortez"]
+
+//   names[0]
+
+//   names.push("Blanca")
+
+function blockscope(name) {
+  let theCrew = ["Lucycan", "Collin", "Mark", "Cortez"];
+  theCrew.push(name);
+  console.log(theCrew);
 }
+let Blanca = "Blanca";
+blockscope(Blanca);
