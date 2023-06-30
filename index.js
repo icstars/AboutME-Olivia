@@ -358,10 +358,33 @@
 
 //   names.push("Blanca")
 
-function blockscope(name) {
-  let theCrew = ["Lucycan", "Collin", "Mark", "Cortez"];
-  theCrew.push(name);
-  console.log(theCrew);
-}
-let Blanca = "Blanca";
-blockscope(Blanca);
+// function blockscope(name) {
+//   let theCrew = ["Lucycan", "Collin", "Mark", "Cortez"];
+//   theCrew.push(name);
+//   console.log(theCrew);
+// }
+// let Blanca = "Blanca";
+// blockscope(Blanca);
+
+// DOM MANIPULATION
+
+console.log(document);
+
+const input = document.getElementById("calendar");
+
+console.log(input);
+
+const submit = document.getElementsByClassName("submit");
+
+console.log(submit[0]);
+
+const h1 = document.querySelector("h1");
+
+console.log(h1);
+
+// Click events, resize, change, etc.
+
+submit[0].addEventListener("click", function () {
+  console.log("hello world");
+  h1.textContent = `You have reserved for ${input.value}`;
+});
